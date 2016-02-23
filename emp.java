@@ -8,7 +8,4 @@ public class emp implements Serializable{
 	private Double sal;
 	private Double comm;
 	private emp mgr;
-	public String toString(){
-		return "“ªŒªπÕ‘±°∞£ª
-		}
 }
