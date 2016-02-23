@@ -1,0 +1,25 @@
+From a42bb0e174ec10af7b8cf4618aa00dda1137d4d7 Mon Sep 17 00:00:00 2001
+From: mygit <mygit@163.com>
+Date: Tue, 23 Feb 2016 10:39:54 +0800
+Subject: [PATCH] add toSting method
+
+---
+ emp.java | 3 +++
+ 1 file changed, 3 insertions(+)
+
+diff --git a/emp.java b/emp.java
+index 620c7ec..a913180 100644
+--- a/emp.java
++++ b/emp.java
+@@ -8,4 +8,7 @@ public class emp implements Serializable{
+ 	private Double sal;
+ 	private Double comm;
+ 	private emp mgr;
++		public String toString(){
++		return "“ªŒªπÕ‘±°∞£ª
++		}
+ }
+\ No newline at end of file
+-- 
+1.9.5.msysgit.1
+
